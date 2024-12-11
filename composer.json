@@ -1,0 +1,17 @@
+{
+    "name": "admin/dist",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Dist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brayan",
+            "email": "contacto@brayandev.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

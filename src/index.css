@@ -1,0 +1,9 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    min-height: 100dvh;
+    background: rgb(139,135,204);
+    background: linear-gradient(0deg, rgba(139,135,204,1) 0%, rgba(100,87,159,1) 29%, rgba(53,36,121,1) 93%);
+}
