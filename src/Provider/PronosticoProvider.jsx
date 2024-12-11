@@ -175,6 +175,7 @@ const PronosticoProvider = ({children}) =>{
                     setLocation(-70.673676,-33.447487);  
                 }
             } catch (error) {
+                mostrarModalAlerta('Ha ocurrido un error. Intente más tarde.');
                 console.log(error);                
             }                    
         } 
